@@ -5,7 +5,7 @@ coverage/
 .DS_Store
 *.log
 .env*
-max_cubica.py
+max_cubica.ipynb
 clase_1_ag.py
 .venv
 venv
