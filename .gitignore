@@ -1,0 +1,14 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+max_cubica.ipynb
+clase_1_ag.py
+.venv
+venv
+Guía_Laboratorio_Algoritmos_Genéticos.md
+AG_Ejercicios_1_y_3_Ideas_Colab.md
+!.env.example
