@@ -6,7 +6,7 @@ Proyecto de trabajo para los ejercicios de Algoritmos Geneticos, enfocado en ana
 
 | Rol | Nombre |
 |---|---|
-| Autor | Jorge Nicolas Castro Ballesteros - jncastro@.. |
+| Autor | Jorge Nicolas Castro Ballesteros - jncastro@ucundinamarca.edu.co |
 | Tutor | Fabio Alejandro Sastoque Rincon |
 | Universidad | Universidad de Cundinamarca - Seccional Ubate |
 
