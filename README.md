@@ -26,7 +26,7 @@ Adapta la funcion de aptitud para maximizar f(x) = x^3 - 4x^2 + 5x en un rango d
 El cromosoma binario se divide en dos mitades (4 bits para x, 4 bits para y), cada una decodificada al rango [-5, 5]. Minimiza f(x, y) = x^2 + y^2 usando -f(x, y) como aptitud. Converge cerca del optimo teorico (0, 0). Ver `Ejercicio_2_Multivariable.ipynb`.
 
 ### Ejercicio 3 - Impacto de la tasa de mutacion
-Ejecuta el algoritmo del Ejercicio 1 con tres probabilidades de mutacion distintas (pm = 0.01, 0.1 y 0.5) y compara las graficas de convergencia resultantes.
+Ejecuta el algoritmo del Ejercicio 1 con tres probabilidades de mutacion distintas (pm = 0.01, 0.1 y 0.5) y compara las graficas de convergencia resultantes. `tasa_mutacion.ipynb`.
 
 ### Ejercicio 4 - Elitismo ampliado
 Modifica la funcion de elitismo para preservar de forma intacta a los 3 mejores individuos de cada generacion (n_elite=3), en lugar de solo 1. Incluye una comparacion de convergencia entre elitismo estandar (n=1) y ampliado (n=3) con la misma semilla. Ver `Ejercicio_4_Elitismo.ipynb`.
