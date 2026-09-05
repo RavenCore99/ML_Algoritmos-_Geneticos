@@ -7,7 +7,7 @@ Proyecto de trabajo para los ejercicios de Algoritmos Geneticos, enfocado en max
 | Rol | Nombre |
 |---|---|
 | Autor 1  | Jorge Nicolas Castro Ballesteros - jncastro@ucundinamarca.edu.co |
-| Autor 2  | -...-.-.-.-.-.-.-.-.-.-.-.-.-.-.- - .,,.,..,@-...,.,.,..,.,.,.,., |
+| Autor 2  | Juana Valentina Espitia Gomez - jvespitia@ucundinamarca.edu.co |
 | Tutor | Fabio Alejandro Sastoque Rincon |
 | Universidad | Universidad de Cundinamarca - Seccional Ubate |
 
