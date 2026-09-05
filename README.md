@@ -1,6 +1,5 @@
 # Ejercicio 4 - Elitismo ampliado
 
-**Integrante:** (tu nombre)
 
 ## Descripción
 
