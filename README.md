@@ -37,6 +37,31 @@ pip install numpy pandas matplotlib ipywidgets ipykernel
 
 Luego abre [max_cubica.ipynb](max_cubica.ipynb), selecciona el kernel de `.venv` y ejecuta las celdas en orden.
 
+## Que se hizo en el codigo
+
+En el notebook [max._cubica.ipynb](max._cubica.ipynb) monte el ejercicio 1 de maximizacion cubica. La meta era encontrar el maximo de f(x) = x³ - 4x² + 5x acotando x entre 0.0 y 1.55, que es donde cae el maximo local en x=1 (f(1)=2).
+
+### Funciones que use
+
+- `fitness_cubica(x)`: devuelve la aptitud de cada individuo con la funcion del enunciado.
+- `decode_binary_to_real()`: traduce un cromosoma de 16 bits a un valor real dentro del rango.
+- `load_context_dataset()`: lee el csv de helados solo para la grafica de contexto, no entra al calculo del AG.
+- `plot_generation_snapshot()`: dibuja la curva cubica, la poblacion de una generacion y el panel que elijas (dataset, top5 o resumen).
+
+### Clase AlgoritmoGenetico
+
+La clase queda modular para reutilizarla despues. Corre 60 generaciones con 40 individuos, pc=0.85, pm=0.03, seleccion por ruleta y elitismo activo. Por dentro hace lo de siempre: inicializar poblacion, calcular fitness, elegir padres, cruzar en un punto, mutar bits y conservar el mejor.
+
+Al terminar deja `ag.last_history_frame` (historial generacion a generacion) y `ag.last_summary_frame` (resumen final con mejor x, fitness, pc, pm, etc.).
+
+### Resultado y visualizacion
+
+Al correrlo salio mejor x = 1.000008 y fitness = 2.0 en la generacion 36, bastante cerca del maximo teorico.
+
+La parte interactiva va con ipywidgets: un slider para moverte entre generaciones y botones para cambiar el panel derecho. A la izquierda siempre se ve la curva con los puntos naranjas de la poblacion y la estrella roja del mejor global. El dataset de helados es solo referencia visual, no afecta el algoritmo.
+
+Las capturas de abajo corresponden a esas tablas y paneles cuando corres el notebook completo.
+
 ## Capturas
 
 1. Generacion y tabla principal
