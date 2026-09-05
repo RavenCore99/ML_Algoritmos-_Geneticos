@@ -15,7 +15,7 @@ Proyecto de trabajo para los ejercicios de Algoritmos Geneticos, enfocado en max
 
 - [max_cubica.ipynb](max_cubica.ipynb): notebook principal con el algoritmo genetico, la decodificacion binaria y las graficas de convergencia (Ejercicio 1 - Maximizacion cubica).
 - [clase_1_ag.py](clase_1_ag.py): archivo de referencia para la estructura general del algoritmo.
-- [Dataset/Ice_cream selling data.csv](Dataset/Ice_cream%20selling%20data.csv): dataset de contexto visual usado en las graficas finales.
+- [Dataset/Ice_cream selling data.csv](Dataset/Ice_cream%20selling%20data.csv): dataset de contexto visual usado en las graficas finales. Aplicado en Ejercicio 1 y 3.
 
 ## Ejercicios
 
