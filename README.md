@@ -77,9 +77,9 @@ Tecnologia y entorno
 
 ## Flujo de trabajo en Git
 
-- Cada integrante trabaja en su propia rama (`feature/nombre-ejercicio`), nunca directamente en `AG` (rama principal del proyecto).
-- Los cambios se suben mediante `git push origin <rama>` y se integran a `AG` a traves de un Pull Request.
-- La carpeta `.venv` y archivos temporales estan excluidos mediante `.gitignore`.
+- Cada integrante trabaja en su propia rama (`feature/nombre-ejercicio`), nunca directamente en `AG` (rama principal del proyecto)
+- Los cambios se suben mediante `git push origin <rama>` y se integran a `AG` a traves de un Pull Request
+- La carpeta `.venv` y archivos temporales estan excluidos del repositorio por seguridad
 
 ## Como ejecutar cada notebook
 
